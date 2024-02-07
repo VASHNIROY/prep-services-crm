@@ -1,0 +1,66 @@
+.customer-list-table-row{
+    font-size:16px;
+    margin:0px;
+    color:#000;
+    width:20%;
+    height:100%;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.customer-list-table-row-input{
+    width:18px;
+    height:18px;
+}
+.customer-list-view-icon{
+    font-size: 24px;
+    margin: 0px;
+    color: #008000;
+    width:20%;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer-list-amount-button{
+    background-color: #008000;
+    padding:8px 18px;
+    color:#fff;
+    border-radius:20px;
+    border:none;
+    cursor:pointer;
+    outline:none;
+    font-size:14px;
+    font-weight:600;
+}
+.customer-list-add-amount-container{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+.customer-list-add-amount-input{
+    border:1px solid #ccc;
+    border-radius:4px;
+    padding:8px 10px;
+    font-size:16px;
+}
+.customer-list-add-amount-button{
+    padding:8px 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 20px;
+  outline: none;
+  border-width: 0px;
+  background-color: #212d45;
+  cursor:pointer;
+  margin-top:10px;
+}
+.customer-list-add-amount-heading{
+    font-size:24px;
+    font-weight:600;
+    margin:4px;
+    color:#212d45;
+}

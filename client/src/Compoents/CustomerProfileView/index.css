@@ -1,0 +1,90 @@
+.customer-profile-view-main-container{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.customer-profile-view-sub-container{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.customer-profile-view-top-container{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.customer-profile-view-edit-button{
+    width:max-content;
+    padding: 6px 20px;
+    background-color: #212d45;
+    color: #fff;
+    border: none !important;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+    transition: background-color 0.3s;
+    cursor:pointer;
+    outline: none;
+}
+.customer-profile-view-profile-image-container{
+    display:flex;
+
+    gap:10px;
+}
+.customer-profile-view-profile-image{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.customer-profile-view-file-upload::file-selector-button{
+    width:max-content;
+    padding: 6px 20px;
+    background-color: #212d45;
+    color: #fff;
+    border: none !important;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+    transition: background-color 0.3s;
+    cursor:pointer;
+    outline: none;
+}
+.customer-profile-view-detail-container{
+    display:flex;
+    gap:6px;
+}
+.customer-profile-view-details-display-flex{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+.customer-profile-view-detail-container-name{
+    margin:0px;
+    font-size:18px;
+    color:#212d45;
+}
+.customer-profile-view-update-password{
+    font-size:16px;
+    margin-top:10px;
+    margin-bottom:0px;
+    text-align: right;
+    color:#4d4dff;
+    cursor:pointer;
+}
+.logout-button{
+    width:max-content;
+    padding: 6px 20px;
+    background-color: #212d45;
+    color: #fff;
+    border: none !important;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+    transition: background-color 0.3s;
+    cursor:pointer;
+    outline: none;
+}

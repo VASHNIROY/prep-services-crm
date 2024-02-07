@@ -1,0 +1,150 @@
+.order-customer-container{
+  border-radius: 10px;
+  padding:20px;
+  width:97%;
+  background-color: #fff;
+}
+.order-customer-main-heading{
+  font-size:32px;
+  font-weight:600;
+  color:#212d45;
+}
+.order-customer-from-container{
+  display: flex;  
+  justify-content: center;
+  gap:20px;
+  width:100%;
+}
+.order-customer-field1-container{
+
+  width: 30%;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+.order-customer-field2-container{
+  
+  width: 30%;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+.order-customer-field3-container{
+  width: 30%;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+.order-customer-input-feild{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  margin-bottom:16px;
+}
+.order-customer-label-name{
+  font-size:18px;
+  margin:0px;
+  color:#212d45;
+  font-weight:500;
+}
+.order-customer-lable-container{
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #212d45; 
+  outline:none;
+}
+.order-customer-submit-button-container{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.order-customer-button-container{
+  margin: 10px;
+  padding: 6px 16px;
+  background-color: #212d45;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight:600;
+  transition: background-color 0.3s;
+  cursor:pointer;
+}
+
+.order-customer-label-file::file-selector-button {
+  padding: 6px 8px;
+  border-radius: 4px;
+  background-color: #212d45;
+  transition: 1s;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  font-size:14px;
+}
+.order-customer-service-container{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.order-customer-service-name{
+  font-size:18px;
+  margin:0px;
+  font-weight:600;
+  margin-top:10px;
+}
+.order-customer-service-input-container{
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+.order-customer-input-checkbox{
+  width:18px;
+  height:18px;
+}
+.order-customer-service-input{
+  padding:6px 10px;
+  border-radius:4px;
+  border:1px solid #212d45;
+  width:60px;
+  text-align: center;
+  outline:none;
+}
+@media (max-width: 767px) {
+  .order-customer-from-container {
+      flex-direction: column;
+      align-items:center;
+      gap:0px;
+  }
+  .order-customer-field1-container{
+    width:60%;
+  }
+  .order-customer-field2-container{
+    width:60%;
+  }
+  .order-customer-field3-container{
+    width:60%;
+  }
+  .order-customer-main-heading{
+    font-size:24px;
+  }
+}
+@media (max-width:512px){
+  .order-customer-field1-container{
+    width:80%;
+  }
+  .order-customer-field2-container{
+    width:80%;
+  }
+  .order-customer-field3-container{
+    width:80%;
+  }
+}
+
+#file-input{
+  display: none;
+}

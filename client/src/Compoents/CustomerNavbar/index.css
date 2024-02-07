@@ -1,0 +1,137 @@
+/* .navbar {
+    //background-color: #124577; 
+    background-color: #ffc03d;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .nav-menu {
+    background-color: #ffc03d;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    width:max-content;
+    color:#000;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight:600;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    gap:5px;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    
+    background-color: #212d45;
+    color:#fff;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+    
+  }
+  
+  .navbar-toggle {
+    background-color: #ffc03d;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  
+  .span {
+    margin-left: 16px;
+    color:#000;
+  }
+  .customer-navbar-logout-button-container{
+    display:flex;
+    align-items: center;
+    gap:20px;
+  }
+  .navbar-logout-button{
+    background-color: #fff;
+    border-radius:20px;
+    padding:4px 12px;
+    color:#000;
+    margin-right:20px;
+    font-size:18px;
+    cursor:pointer;
+    min-width:max-content;
+    border:none;
+  }
+  .customer-navbar-nav-item-name{
+    color:#000;
+    font-size:18px;
+    font-weight:600;
+    margin:0px;
+  }
+  .content-container {
+    width: 100%; 
+    
+  }
+  
+  .content-container.shifted {
+    width: calc(100% - 200px); 
+    margin-left: 250px; 
+    transition: 1s;
+  }
+  .navbar-logout-button-container{
+    display:flex;
+  }
+  .navbar-container{
+    background-image: url('https://www.goldmansachs.com/intelligence/pages/the-long-and-short-of-it/paper-and-packaging-industry/800x450.png');
+    background-size: cover;
+    width:100%;
+    height:100vh;
+  }
+  .toggle{
+    opacity:0;
+  }
+  .balance-amount{
+    margin:0px;
+    font-size:18px;
+    color:#212d45;
+  } */
+
+  .navbar-profile-image{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    cursor:pointer;
+  }

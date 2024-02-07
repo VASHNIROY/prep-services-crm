@@ -1,0 +1,29 @@
+.navbar-main-container {
+    display: flex;
+    
+    align-items: center;
+    /* background-color: #ffc03d; */
+  /* background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-5949.jpg?w=740&t=st=1705670338~exp=1705670938~hmac=bac0c0e7e16e235e33d6c11879a880833ee1138d6136aa4502ec17acc021da29');
+    background-size:cover; */
+    /* background-image: linear-gradient(to Right,#ff9f00,#fedc00,#ffc500); */
+    background-color: #2884a1;
+    width: 100%;
+  }
+  .navbar-sub-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0px 70px;
+    height: 60px;
+  }
+  .navbar-company-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0px;
+  }
+  @media (max-width:768px){
+    .navbar-sub-container{
+      padding:0px 10px 0px 0px;
+    }
+  }

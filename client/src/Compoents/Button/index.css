@@ -1,0 +1,72 @@
+
+/* .customer-signin-form-button-container {
+  background-color: #ffc03d;
+  color: #212d45;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+.customer-signin-form-button-container:hover{
+  border:1px solid #212d45;
+  color:#212d45;
+  background-color: #fff;
+  transition:0.3s ease-in-out;
+} */
+.loader-spinner-button {
+  background-color: #212d45;
+  color: #fff;
+  padding: 7px 0px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  width:100%;
+  min-width: max-content;
+}
+.loader-spinner-button:hover {
+  border:1px solid #212d45;
+  color:#212d45;
+  background-color: #fff;
+  transition:0.3s ease-in-out;
+
+}
+
+.loader-spinner-button:disabled {
+  border: 1px solid#212d45;
+
+  background-color: #fff;
+  color: #ffc03d;
+  cursor: not-allowed;
+  width:98%;
+}
+
+.spinner-button {
+  animation-name: loaderspinner;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 20px;
+}
+
+@keyframes loaderspinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width:768px){
+  .loader-spinner-button{
+    padding:4px 10px;
+  }
+
+  .loader-spinner-button:disabled {
+    width: 100px;
+  }
+}

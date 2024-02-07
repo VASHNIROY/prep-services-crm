@@ -1,0 +1,26 @@
+.received-quantity-main-container{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+.received-quantity-label-name{
+    font-size:16px;
+    font-weight:600;
+}
+.received-quantity-input-field{
+    padding:10px 20px;
+    font-size:16px;
+    border-radius:6px;
+    border:0.5px solid grey;
+    outline: none;
+}
+.received-quantity-update-button{
+    padding: 10px 15px;
+    background-color:#212d45;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color:#fff;
+    margin-top:10px;
+    font-size:16px;
+}

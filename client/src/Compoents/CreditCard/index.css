@@ -1,0 +1,48 @@
+.credit-card-form-main-container{
+    background-image:url('../utlis/credit-bg.png') !important;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.credit-card-form-sub-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 80vh;
+    width: 90%;
+    border-radius: 20px;
+}
+.credit-card-form-container{
+    padding: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 0px 10px;
+}
+.rccs__card{
+    width: 350px!important;
+    height: 35vh!important;
+}
+ 
+@media (max-width: 1200px) {
+    .credit-card-form-sub-container {
+      width: 80%;
+    }
+  }
+ 
+  @media (max-width: 991px) {
+    .credit-card-form-sub-container {
+      flex-direction: column;
+      height: auto;
+    }
+  }
+ 
+  @media (max-width: 767px) {
+    .credit-card-form-sub-container {
+      width: 100%;
+    }
+  }

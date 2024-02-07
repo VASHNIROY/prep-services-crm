@@ -1,0 +1,55 @@
+.product-service-list-heading{
+    font-size:24px;
+    margin:10px;
+}
+.service-add-button-container{
+    display:flex;
+    justify-content: space-between;
+}
+.service-add-button{
+    
+    margin: 10px;
+    padding: 6px 12px;
+    background-color: #212d45;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+    transition: background-color 0.3s;
+    cursor:pointer;
+}
+.model-close-icon{
+    cursor:pointer;
+    color:#212d45;
+    font-size:24px;
+    margin-bottom:10px;
+}
+.product-service-main-container{
+    display:flex;
+    justify-content: center;
+}
+.product-service-form-container{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    gap:16px;
+}
+.product-service-input-container{
+    display:flex;
+    flex-direction: column;
+    gap:6px;
+}
+.product-service-label-name{
+    font-size:18px;
+    margin:0px;
+    color:#212d45;
+    font-weight:500;
+}
+.product-service-input-field{
+    padding:6px 10px;
+    border:1px solid #212d45;
+    border-radius:4px;
+    width:100%;
+}

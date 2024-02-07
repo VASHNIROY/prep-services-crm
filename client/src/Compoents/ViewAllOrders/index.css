@@ -1,0 +1,50 @@
+.admin-order-accepted-search-filter-input {
+  width: 250px;
+  border: 1px solid #000080;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 16px;
+  color: #212d45;
+  margin: 10px 0px;
+  outline: none;
+}
+.tracking-url {
+  text-decoration: none;
+}
+.status-dispatced {
+  color: #00ff00;
+  font-weight: 600;
+  width:11%;
+}
+.status-invoice-accepted {
+  color: #99ff99;
+  font-weight: 600;
+}
+.status-invoice-generated {
+  color: #3333ff;
+  font-weight: 600;
+}
+.status-invoice-rejected {
+  color: #ff0000;
+  font-weight: 600;
+}
+.status-label {
+  color: #66ffff;
+  font-weight: 600;
+}
+.status-dimension {
+  color: #00e6e6;
+  font-weight: 600;
+}
+.status-received {
+  color: #99ff33;
+  font-weight: 600;
+}
+.status-rejected {
+  color: #e60000;
+  font-weight: 600;
+}
+.status-pending {
+  color: #e6e600;
+  font-weight: 600;
+}

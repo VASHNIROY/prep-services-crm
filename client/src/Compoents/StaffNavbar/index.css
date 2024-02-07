@@ -1,0 +1,28 @@
+.sidebar-container {
+    opacity: 1;
+    background-image:linear-gradient(to bottom,#ff9f00,#fedc00,#ffc500) !important;
+  }
+  .hamburger-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 15px 10px 0px;
+    cursor: pointer;
+  }
+  .display-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .organizeWise-logo {
+    width: 50px;
+    border-radius: 50%;
+  }
+  .menu-item.active-menu-tab{
+    background-color: #212d45 !important;
+    color:#fff !important;
+  }
+  ps-sidebar-container{
+    background-color: transparent !important;
+  }

@@ -1,0 +1,392 @@
+.admin-order-accepted-product-list{
+    display:flex;
+    flex-direction:column;
+    padding:0% 4% 0% 4%;
+    
+    /* background-image: url('../../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:lighten;
+    background-size: 200px; */
+   
+}
+.admin-order-accepted-order-list-heading{
+    font-size:28px;
+    color:#212d45;
+    margin:10px 0px 20px 0px;
+    font-weight:600;
+}
+.admin-order-accepted-category-types{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #e0e0eb;
+    background-color: #e6e6e6;
+    min-width:1000px;
+    gap:20px;
+    padding:2px 0px;
+    min-height:24px;
+    min-width:1000px;
+    max-height:max-content;
+    width:100%;
+}
+.admin-order-accepted-order-id-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    height:100%;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-name-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-service-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-quantity-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.admin-order-accepted-order-tracking-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:20%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-accept-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-decline-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-fnsku-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-box-label-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-view-in-detail-category{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-display-of-products-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left:0.5px solid #e0e0eb;
+    border-right:0.5px solid #e0e0eb;
+    border-bottom:0.5px solid #e0e0eb;
+    padding:2px 0px;
+    min-width:1000px;
+    gap:20px;
+    height:max-content;
+    width:100%;
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+.admin-order-accepted-display-of-products-container::-webkit-scrollbar{
+    width:0.1px;
+    height:0.1px
+}
+.admin-order-accepted-order-id-sub-category{
+    font-size:16px;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    height:100%;
+    overflow: hidden;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.admin-order-accepted-name-sub-category{
+    font-size:16px;
+    margin:0px;
+    color: #212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-service-sub-category{
+    font-size:16px;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.admin-order-accepted-quantity-sub-category{
+    font-size:16px;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.admin-order-accepted-order-tracking-sub-category{
+    font-size:16px;
+    margin:0px;
+    color:#212d45;
+    width:20%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.admin-order-accepted-fnsku-sub-category{
+    font-size:16px;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-checkbox{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+.admin-order-accepted-box-label-sub-category{
+    font-size:16px;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    overflow: hidden;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-view-in-detail-sub-category{
+    font-size:24px;
+    margin:0px;
+    color:#008000;
+    width:10%;
+    overflow: hidden;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.admin-order-accepted-received-button{
+    background-color: #008000;
+    padding:8px 10px;
+    color:#fff;
+    border-radius:20px;
+    border:none;
+    cursor:pointer;
+    outline:none;
+    font-size:14px;
+    font-weight:600;
+    width:10%;
+    min-width:max-content;
+    
+}
+.admin-order-accepted-declined-button{
+    background-color:#d32525;
+    padding:8px 2px;
+    color:#fff;
+    border-radius:20px;
+    border:none;
+    cursor:pointer;
+    outline:none;
+    font-size:14px;
+    font-weight:600;
+    width:10%;
+    min-width:max-content;
+}
+.admin-order-accepted-readonly{
+    background-color:#f0f0f5;
+}
+.admin-order-accepted-search-filter-input-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.admin-order-accepted-enter-amount{
+    font-size:18px;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    height:100%;
+    overflow: hidden;
+    font-weight:600;
+}
+.admin-order-accepted-enter-amount-input-container{
+    font-size:18px;
+    margin:0px;
+    color:#212d45;
+    width:10%;
+    height:100%;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-order-accepted-enter-amount-input-box{
+    width:80%;
+    border-radius:4px;
+    height:60%;
+    text-align:center;
+}
+.pagination-button-container{
+    display:flex;
+    justify-content: center;
+    margin:10px 0px;
+}
+.pagination-arrow-container{
+    border-width: 5px 10px 5px 0;
+    margin: 0 15px;
+    font-size: 25px;
+    color: #4caf50;
+    cursor:pointer;
+}
+.pagination-button-previous-button{
+    cursor:pointer;
+    border:none;
+    background-color:#4caf50;
+    color:#fff;
+    border-radius:4px;
+    height:30px;
+    padding:0px 8px;
+    margin-right:4px;
+    width:70px;
+}
+.pagination-button-next-button{
+    cursor:pointer;
+    border:none;
+    background-color:#4caf50;
+    color:#fff;
+    border-radius:4px;
+    height:30px;
+    padding:0px 8px;
+    margin-left:4px;
+    width:100px;
+}
+.disable-previous-next-button{
+    color:grey !important;
+    cursor:not-allowed;
+    pointer-events: none;
+}
+.admin-order-accepted-table-container{
+    width:100%;
+    overflow-x:auto;
+}
+.admin-order-accepted-table-container::-webkit-scrollbar{
+    height:1px;
+}
+.admin-order-accepted-table-container-1{
+    width:100%;
+    overflow:auto;
+}
+.admin-order-accepted-table-container-1::-webkit-scrollbar{
+    height:1px;
+}
+@media (max-width:512px){
+    .admin-order-accepted-search-filter-input-container{
+        flex-direction:column;
+        gap:1px;
+    }
+}

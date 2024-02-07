@@ -1,0 +1,45 @@
+.admin-home-page-main-container{
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    padding:0% 4% 0% 4%;
+}
+.admin-home-page-order-heading{
+    font-size:32px;
+    font-weight:600;
+    margin:0px 0px 20px 0px;
+    color:#212d45;
+    text-align: center;
+}
+.admin-home-page-product-tabs-container{
+    display:flex;
+    gap:20px;
+    list-style-type: none;
+    padding:0px;
+}
+.admin-home-page-product-tab{
+    background-color: #e0e0eb;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:16px;
+    color:#737373;
+    font-weight:600;
+    cursor:pointer;
+    margin:2px;
+}
+.admin-home-page-active-product-tab-color{
+    background-color: #212d45;
+    color:#fff;
+}
+@media (max-width:768px){
+    .admin-home-page-product-tabs-container{
+        width:95%;
+        flex-wrap:wrap;
+    }
+    .admin-home-page-order-heading{
+        font-size:24px;
+    }
+    .admin-home-page-product-tab{
+        font-size:16px;
+    }
+}

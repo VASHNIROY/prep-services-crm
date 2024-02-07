@@ -1,0 +1,78 @@
+.admin-orders-product-container{
+    display: flex;
+    gap:20px;
+    border:1px solid grey;
+    padding:0px 4px;
+    width:100%;
+}
+.admin-orders-product-list-container{
+    display: flex;
+    gap:20px;
+    padding:0px 4px;
+    border-bottom:0.5px solid red;
+    border-left:0.5px solid red;
+    border-right:0.5px solid red;
+    width:100%;
+    opacity:0;
+    
+}
+.admin-orders-product-id{
+    width:10%;
+    margin:0px;
+}
+.admin-orders-product-name{
+    width:10%;
+    margin:0px;
+}
+.admin-orders-product-service{
+    width:10%;
+    margin:0px;
+}
+.admin-orders-product-quantity{
+    width:10%;
+    margin:0px;
+}
+.admin-order-box-label-checkbox{
+    width:10%;
+    margin:0px;
+}
+.admin-order-fnsku-label-checkbox{
+    width:10%;
+    margin:0px;
+}
+.admin-order-box-label-checkbox-1{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:10%;
+}
+.admin-order-fnsku-label-checkbox-1{
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.admin-orders-product-url{
+    width:10%;
+}
+.admin-orders-product-buttons-container{
+    width:300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.admin-orders-product-accept-button{
+    padding: 10px 15px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.admin-orders-product-decline-button{
+    padding: 10px 15px;
+    background-color:rgba(234, 15, 15, 0.877);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:#fff;
+}

@@ -1,0 +1,14 @@
+.admin-main-page-button-container{
+    display:flex;
+    justify-content: space-between;
+}
+.admin-main-page-button{
+    border:none;
+    cursor:pointer;
+    background-color: antiquewhite;
+    color:#212d45;
+    font-size:16px;
+    padding:4px 12px;
+    border-radius:4px;
+    outline:none;
+}

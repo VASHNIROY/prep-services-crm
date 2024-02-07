@@ -1,0 +1,71 @@
+.otp-input-background-container{
+  background-image: url('../utlis/signup-bg-2.png') !important;
+  background-size: cover;
+  height:100vh;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.otp-input-form-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height:80vh;
+  width:90%;
+  border-radius:20px;
+  }
+  .otp-input-sub-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:40px;
+    width:300px;
+    margin:0px 10px;
+    border:2px solid #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .otp-input-display-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:10px;
+  }
+  .enter-your-otp-heading{
+    font-size:24px;
+    font-weight:600;
+    color:#212d45;
+    text-align: center;
+    margin:0px;
+  }
+  .otp-input-label-name{
+    font-size:18px;
+    margin:2px 0px;
+    color:#212d45;
+
+  }
+  .otp-input-field {
+    width:40px !important;
+    height:40px;
+    font-size: 18px;
+    margin:0px 10px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  .verify-otp-button{
+      margin: 10px;
+      width:max-content;
+      padding: 10px 20px;
+      background-color: #212d45;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight:600;
+      transition: background-color 0.3s;
+      cursor:pointer;
+  }

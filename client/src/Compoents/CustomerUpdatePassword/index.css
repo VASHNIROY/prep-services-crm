@@ -1,0 +1,48 @@
+.customer-update-password-main-container{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin-top:10px;
+}
+.customer-update-password-form-container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.customer-update-password-input-container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.customer-update-password-label-name{
+    font-size:18px;
+}
+.customer-update-password-input-field{
+    background-color: #f2f2f2;
+    border-radius:4px;
+    outline:none;
+    font-size:16px;
+    padding:8px 10px;
+    border:none;
+}
+.customer-update-password-button{
+    width:100%;
+    margin-top:10px;
+    padding: 6px 20px;
+    background-color: #212d45;
+    color: #fff;
+    border: none !important;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+    transition: background-color 0.3s;
+    cursor:pointer;
+    outline: none;
+}
+.customer-update-password-heading{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+}

@@ -1,0 +1,67 @@
+.generate-invoice-discount-container{
+    display:flex;
+    gap:20px;
+}
+.genearte-invoice-heading{
+    font-size:24px;
+    font-weight:600;
+    margin:0px;
+}
+.generate-invoice-total-amount{
+    font-size:18px;
+    margin:0px;
+    margin-top:8px;
+    width:200px;
+}
+.generate-invoice-total-amount-text{
+    font-size:18px;
+    margin:0px;
+    margin-top:8px;
+    width:50px;
+    text-align: right;
+}
+.generate-invoice-discount-input{
+    padding:6px 4px;
+    border-radius:4px;
+    border:1px solid #212d95;
+    outline:none;
+    width:30px;
+    text-align: right;
+}
+.generate-invoice-billing-container{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right:65px;
+    gap:10px;
+}
+.ax-logo-container{
+    width:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ax-logo{
+    width:100%;
+}
+.generate-invoice-logo-address-container{
+    display:flex;
+    gap:30px;
+    width:100%;
+    margin:20px;
+}
+.genrate-invoice-address-container{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+.generate-invoice-address-name-heading{
+    font-size:18px;
+    margin:0px;
+    font-weight:600;
+    color:#212d45;
+}
+.generate-invoice-address-name{
+    font-size:16px;
+    margin:0px;
+}

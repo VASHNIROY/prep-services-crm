@@ -1,0 +1,54 @@
+.generate-invoice-table-container-1{
+    width:95%;
+    border:0.5px solid #e0e0eb;
+}
+.generate-invoice-table-container-1::-webkit-scrollbar{
+    height:1px;
+}
+.generate-invoice-header-table-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #e0e0eb;
+    background-color: #e6e6e6;
+    gap:20px;
+    height:24px;
+    width:100%;
+}
+.generate-invoice-table-header{
+    font-size:16px;
+    font-weight:600;
+    margin:0px;
+    color:#212d45;
+    width:20%;
+    height:100%;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.generate-invoice-table-header-1{
+    font-size:16px;
+    font-weight:600;
+    margin-right:20px;
+    color:#212d45;
+    width:20%;
+    height:100%;
+    overflow: hidden;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.generate-invoice-table-display-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-left:0.5px solid #e0e0eb;
+    border-right:0.5px solid #e0e0eb;
+    border-bottom:0.5px solid #e0e0eb; */
+    gap:20px;
+    height:30px;
+    width:100%;
+    overflow-x:auto;
+    overflow-y:hidden;
+}

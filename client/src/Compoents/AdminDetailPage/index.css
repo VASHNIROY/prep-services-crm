@@ -1,0 +1,160 @@
+.order-customer-container{
+    border-radius: 10px;
+    padding:20px;
+  }
+  .order-customer-main-heading{
+    font-size:32px;
+    font-weight:600;
+    color:#212d45;
+  }
+  .order-customer-from-container{
+    display: flex;  
+    gap:20px;
+    width:100%;
+  }
+  .order-customer-field1-container{
+  
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .order-customer-field2-container{
+    
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .order-customer-field3-container{
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .order-customer-input-feild{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom:16px;
+  }
+  .order-customer-label-name{
+    font-size:18px;
+    margin:0px;
+    color:#212d45;
+    font-weight:500;
+  }
+  .order-customer-lable-container{
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #212d45; 
+    outline:none;
+  }
+  .order-customer-dimension-update-button-container{
+    margin: 10px;
+    padding: 10px 14px;
+    background-color: #212d45;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+    transition: background-color 0.3s;
+    cursor:pointer;
+    width:200px;
+    text-align: center;
+  }
+  .order-customer-button-container{
+    margin: 10px;
+    padding: 8px 14px;
+    background-color: #212d45;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+    transition: background-color 0.3s;
+    cursor:pointer;
+  }
+
+  .order-customer-label-file::file-selector-button {
+    padding: 2px 8px;
+    border-radius: 20px;
+    background-color: #212d45;
+    transition: 1s;
+    color:#fff;
+    border:none;
+  }
+  .order-customer-input-feild-fnsku-status{
+    display: flex;
+    gap:5px;
+    margin-bottom:16px;
+  }
+  .order-customer-lable-container-checkbox{
+    width:20px;
+    height:20px;
+  }
+  .order-customer-view-file-button-container{
+    margin: 10px;
+    width:max-content;
+    padding: 10px 12px;
+    background-color: #212d45;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+    transition: background-color 0.3s;
+    cursor:pointer;
+  }
+  .order-customer-backward-button{
+    border:none;
+    background-color: transparent;
+    cursor:pointer;
+}
+.order-customer-backward-icon{
+    color:#212d45;
+    font-size:40px;
+}
+
+  @media (max-width: 767px) {
+    .order-customer-from-container {
+        flex-direction: column;
+        align-items:center;
+        gap:0px;
+    }
+    .order-customer-field1-container{
+      width:60%;
+    }
+    .order-customer-field2-container{
+      width:60%;
+    }
+    .order-customer-field3-container{
+      width:60%;
+    }
+    .order-customer-main-heading{
+      font-size:24px;
+    }
+  }
+  @media (max-width:512px){
+    .order-customer-field1-container{
+      width:80%;
+    }
+    .order-customer-field2-container{
+      width:80%;
+    }
+    .order-customer-field3-container{
+      width:80%;
+    }
+  }
+
+  .viewpdf-button{
+    color:red;
+    font-size: 45px;
+  }
